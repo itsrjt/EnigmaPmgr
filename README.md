@@ -2,62 +2,28 @@
 
  A Password manager coded entirely in Flutter that used Three layers of security. It saves password in your Phone's local Storage, thus no issue of data Leak from a server. 
 
-    - Support Local Storage Only as of now
-    - Not for web
-    - You can easily add Custom Backend
-
 # Security Layers
-    1. Your password String is Encrypted itself.
-    2. The Entire Database is encrypted.
-    3. Uses Your Phone's Local Bio (Fingerprint) auth.
-        - Also it is single-time Allow only, 
-        which means if you press home or back, You will have to re-authenticate.
+
+    1. The password string is encrypted itself.
+    2. The entire database is encrypted.
+    3. Uses your  local-bio (Fingerprint) authentication.
+        - Single-time authentication valid . Re-verify for using after minimize .
 
 # Security 
-    - need to re-authenticate every time app is launched
-    - Won't be visible in recent - activity
-    - Local Authentication ( Bio )
+
+    - Re-authenticate every time app is launched
+    - Won't be visible in recent - activity section
+    - Local Authentication ( Biometric )
     - Database is encrypted
     - Passwords are encrypted
     - App Level security
 
 # Todos
-    - add Delete
+
     - add Edit
-    - add a text-auto-fill for correctly mapping icons to service
-
-
-# Screenshots
-
-![Text](screenshots/ss1.png)
-
-![Text](screenshots/ss2.png)
-
-![Text](screenshots/ss3.png)
-
-![Text](screenshots/ss4.png)
-
-![Text](screenshots/ss5.png)
-
-![Text](screenshots/ss6.png)
-
-![Text](screenshots/ss7.png)
-
-  
-## SOCIAL
-
-
-[Facebook 🧡](https://www.facebook.com/desiprogrammerofficial)
-
-[Instagram](https://www.instagram.com/desiprogrammer/)
-
-[Gitlab](https://gitlab.com/desiprogrammer)
-
-[Github](https://github.com/desi-programmer)
-
+    - add auto-fill for correctly mapping icons to service
   
 # Data
-    - type
-    - nick
+    - type/service
     - username/email
     - password
